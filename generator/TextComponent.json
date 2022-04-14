@@ -1,0 +1,90 @@
+{
+    "project-settings": {
+        "code-owner": "Angular App",
+        "bundle-path": "../core/src/main/java",
+        "test-path": "../core/src/test/java",
+        "apps-path": "../ui.apps/src/main/content/jcr_root/apps",
+        "component-path": "angularapp",
+        "model-interface-pkg": "com.angularapp.core.models",
+        "model-impl-pkg": "com.angularapp.core.models.impl"
+    },
+    "name": "text",
+    "title": "Text Component",
+    "group": "Angular App - Content",
+    "type": "components",
+    "options": {
+        "js": false,
+        "jstxt": false,
+        "css": false,
+        "csstxt": false,
+        "html": false,
+        "html-content": false,
+        "slingmodel": true,
+        "testclass": false,
+        "junit-major-version": 5,
+        "content-exporter": true,
+        "model-adaptables": ["request"],
+        "generic-javadoc": false,
+        "properties": [
+            {
+                "field": "text",
+                "label": "Meu Texto",
+                "type": "textfield",
+                "json-expose": true,
+                "json-property": "text"
+            },
+            {
+                "field": "className",
+                "type": "radiogroup",
+                "label": "Estilo",
+                "json-expose": true,
+                "json-property": "className",
+                "attributes": {
+                    "className": ""
+                },
+                "items": [
+                    {
+                        "field": "title",
+                        "type": "radio",
+                        "attributes": {
+                            "checked": "{Boolean}true",
+                            "name": "className",
+                            "text": "Title",
+                            "value": "title"
+                        }
+                    },
+                    {
+                        "field": "bad-news",
+                        "type": "radio",
+                        "attributes": {
+                            "checked": "{Boolean}false",
+                            "name": "className",
+                            "text": "Text Bad News",
+                            "value": "bad-news"
+                        }
+                    },
+                    {
+                        "field": "looking-for",
+                        "type": "radio",
+                        "attributes": {
+                            "checked": "{Boolean}false",
+                            "name": "className",
+                            "text": "Text Looking For",
+                            "value": "looking-for"
+                        }
+                    },
+                    {
+                        "field": "text-footer",
+                        "type": "radio",
+                        "attributes": {
+                            "checked": "{Boolean}false",
+                            "name": "className",
+                            "text": "Footer",
+                            "value": "text-footer"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
