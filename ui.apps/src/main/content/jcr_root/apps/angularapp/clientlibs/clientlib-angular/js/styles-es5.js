@@ -19,7 +19,7 @@
 
     exports.push([module.i, "\n/* You can add global styles to this file, and also import other style files */\n.cmp-image__image {\n  margin-top: 5em;\n}\n.cmp-button {\n  margin-top: 30px;\n  width: 216px;\n  height: 68px;\n  left: 740px;\n  top: 663px;\n  background: #333333;\n}\n.cmp-button__text {\n  width: 130px;\n  left: 783px;\n  top: 687px;\n  font-family: \"Space Mono\";\n  font-style: normal;\n  font-weight: 700;\n  font-size: 14px;\n  line-height: 21px;\n  letter-spacing: -0.035em;\n  text-transform: uppercase;\n  color: #ffffff;\n}", "", {
       "version": 3,
-      "sources": ["C:\\Users\\valber.vasconcelos\\Documents\\AEM\\Projetos\\404-challenge\\ui.frontend/src\\styles.scss", "styles.scss"],
+      "sources": ["C:\\Users\\valber.vasconcelos\\Documents\\AEM\\Projetos\\aem-angular-404-challenge\\ui.frontend/src\\styles.scss", "styles.scss"],
       "names": [],
       "mappings": ";AAAA,8EAAA;AAMA;EACI,eAAA;ACHJ;ADMA;EACI,gBAAA;EACA,YAAA;EACA,YAAA;EACA,WAAA;EACA,UAAA;EAEA,mBAAA;ACJJ;ADOA;EACI,YAAA;EACA,WAAA;EACA,UAAA;EAEA,yBAAA;EACA,kBAAA;EACA,gBAAA;EACA,eAAA;EACA,iBAAA;EACA,wBAAA;EACA,yBAAA;EAEA,cAAA;ACNJ",
       "file": "styles.scss",
@@ -465,7 +465,7 @@
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! C:\Users\valber.vasconcelos\Documents\AEM\Projetos\404-challenge\ui.frontend\src\styles.scss */
+    /*! C:\Users\valber.vasconcelos\Documents\AEM\Projetos\aem-angular-404-challenge\ui.frontend\src\styles.scss */
     "./src/styles.scss");
     /***/
   }

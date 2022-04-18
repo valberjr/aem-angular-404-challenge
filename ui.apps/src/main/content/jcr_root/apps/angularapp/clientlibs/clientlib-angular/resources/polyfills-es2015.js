@@ -6766,8 +6766,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\valber.vasconcelos\Documents\AEM\Projetos\404-challenge\ui.frontend\src\polyfills.ts */"./src/polyfills.ts");
-module.exports = __webpack_require__(/*! C:\Users\valber.vasconcelos\Documents\AEM\Projetos\404-challenge\ui.frontend\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\jit-polyfills.js */"./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js");
+__webpack_require__(/*! C:\Users\valber.vasconcelos\Documents\AEM\Projetos\aem-angular-404-challenge\ui.frontend\src\polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! C:\Users\valber.vasconcelos\Documents\AEM\Projetos\aem-angular-404-challenge\ui.frontend\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\jit-polyfills.js */"./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js");
 
 
 /***/ })
